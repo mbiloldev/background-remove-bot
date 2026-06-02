@@ -2,7 +2,6 @@
 
 Ushbu Telegram bot sun'iy intellekt (`rembg` kutubxonasi) yordamida rasmlarning orqa fonini (background) bir necha soniya ichida butunlay avtomatik ravishda olib tashlaydi. Bot hech qanday pullik API'larsiz, to'g'ridan-to'g'ri serverning o'zida rasmlarga ishlov beradi.
 
-📌 **Bot manzili:** [@SizningBotizningUsernamei](https://t.me/bot_linki)
 
 ---
 
