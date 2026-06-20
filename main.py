@@ -25,10 +25,7 @@ async def remove_bg(message: types.Message):
     input_image = Image.open(file_bytes)
     output_image = remove(input_image)
     
-    output_bytes = io.BytesIO()
-    output_image.save(output_bytes, format="PNG")
-    output_bytes.seek(0)
-    
+
     await message.answer_document(
         types.BufferedInputFile(output_bytes.read(), filename="result.png")
     )
