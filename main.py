@@ -7,14 +7,7 @@ from PIL import Image
 import io
 
 BOT_TOKEN = "YOUR_BOT_TOKEN"
-f start(message: types.Message):
-    await message.answer("Rasm yuboring, background ni olib tashlayman!")
-
-@dp.message(F.photo)
-async def remove_bg(message: types.Message):
-    await message.answer("Ishlanmoqda...")
-    photo = message.photo[-1]
-    file = await bot.get_file(photo.file_id)
+= await bot.get_file(photo.file_id)
     file_bytes = await bot.download_file(file.file_path)
     
     input_image = Image.open(file_bytes)
