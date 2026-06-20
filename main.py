@@ -7,12 +7,7 @@ from PIL import Image
 import io
 
 BOT_TOKEN = "YOUR_BOT_TOKEN"
-
-bot = Bot(token=BOT_TOKEN)
-dp = Dispatcher()
-
-@dp.message(CommandStart())
-async def start(message: types.Message):
+f start(message: types.Message):
     await message.answer("Rasm yuboring, background ni olib tashlayman!")
 
 @dp.message(F.photo)
