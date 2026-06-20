@@ -7,6 +7,10 @@ Ushbu Telegram bot sun'iy intellekt (`rembg` kutubxonasi) yordamida rasmlarning 
 
 # UZBEK DEV
 
+<div align="center">
+  <img src="./banner.svg" width="100%"/>
+</div>
+
 ## ✨ Xususiyatlari (Features)
 
 * ⚡ **Mutloq bepul va cheksiz:** Tashqi pullik API kalitlaridan foydalanmaydi (`rembg` orqali ishlaydi).
